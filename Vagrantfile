@@ -18,7 +18,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #config.vm.synced_folder ".", "/vagrant", type: "nfs"
   
    config.vm.provider "virtualbox" do |vb|
-     vb.name = "debian/stretch64
+     vb.name = "gentoo-amd64"
      vb.gui = false
      vb.memory = "8192"
      vb.cpus = "2"
