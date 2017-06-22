@@ -5,7 +5,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "debian-stretch64"
+  config.vm.box = "gentoo-amd64"
 
     # vagrant plugin install vagrant-disksize
     config.disksize.size = "40GB"
