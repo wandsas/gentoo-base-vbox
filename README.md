@@ -1,3 +1,14 @@
+# gentoo-base-vbox
+
+* [Gentoo VM] <http://gentoo.org>
+
+* [Vagrant] <https://www.packer.io/intro/index.html>
+
+* [Packer Templates] <https://www.packer.io/intro/index.html>
+
+* [Oracle VM VirtualBox] <https://www.virtualbox.org/manual/UserManual.html>
+
+
 MIT License
 
 Copyright (c) 2017 wandsas
