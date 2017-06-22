@@ -12,10 +12,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   
   config.vm.box_check_update = false
 
-  config.vm.network "private_network", ip: "192.168.33.10"
+  config.vm.network "private_network", ip: "192.168.33.111"
 
-  config.vm.synced_folder "./work", "/work"
-  #config.vm.synced_folder ".", "/vagrant", type: "nfs"
+  #config.vm.synced_folder "./work", "/work"
+  config.vm.synced_folder ".", "/vagrant", type: "nfs"
   
    config.vm.provider "virtualbox" do |vb|
      vb.name = "gentoo-amd64"
